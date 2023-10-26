@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assignment</title>
+    <!-- External CSS -->
+    <link href="./styles.css" rel="stylesheet">
+    <!-- internal CSS -->
+    <style>
+        .First {
+            color: rgb(212, 128, 19);
+        }
+        .third {
+            color: rgba(76, 200, 76, 0.926);
+        }
+        .fifth {
+            color: #c12727;
+        }
+        .sixth {
+            color:rgba(76, 200, 76, 0.926)
+        }
+    </style>
+</head>
+<body>
+    <h1 class="First">Internal</h1>
+    <h1 style="color: red">Inline</h1>
+    <h1 class="second">External</h1>
+    <!-- Internal will be applied -->
+    <h1 class="third">Internal + External</h1>
+    <!-- Inline will be applied -->
+    <h1 class="forth" style="color: blueviolet;">Inline + External</h1>
+    <!-- Inline will be applied -->
+    <h1 class="fifth" style="color: rgba(15, 177, 222, 0.927);">Inline + Internal</h1>
+    <!-- Inline will be applied -->
+    <h1 class="sixth" style="color: rgb(237, 214, 15);">Inline + Internal + External</h1>
+</body>
+</html>
